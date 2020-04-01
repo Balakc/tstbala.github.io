@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JB-Loan, Korea</title>
+    <link rel="stylesheet" href="css/all.css">
+
+</head>
+
+<body>
+    <div class="loanWrap">
+        <div class="loan">
+
+            <h4>JB Bank loan </h4>
+            <hr>
+            <p>
+                Following docs are requied for Loan processing.
+            </p>
+            <div class="list">
+                <ul>
+                    <li>एलियन कार्ड- 외국인등록증</li>
+                    <li>पासपोर्ट- 여권</li>
+                    <li>श्रम सम्झौता पत्र- 표준근로계약서</li>
+                    <li>तलब आउने बैंक खाताको ६ महिनाको बैंक स्टेटमेन्ट- 급여통장 최근 6 개월 입출금 거래내역서</li>
+                    <li>रोजगार प्रमाणपत्र - 재직 증명서</li>
+                    <li>통장- Bank passbook</li>
+                </ul>
+            </div>
+            <table id="tbl">
+                <tr>
+                    <th>Amount(Won)</th>
+                    <th>Installment(Month)</th>
+                    <th>Visa Required(Month)</th>
+                </tr>
+                <tr>
+                    <td>15 Million</td>
+                    <td>25</td>
+                    <td>28</td>
+                </tr>
+                <tr>
+                    <td>14 Million</td>
+                    <td>24</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>13 Million</td>
+                    <td>22</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>12 Million</td>
+                    <td>20</td>
+                    <td>23</td>
+                </tr>
+                <tr>
+                    <td>11 Million</td>
+                    <td>18</td>
+                    <td>21</td>
+                </tr>
+                <tr>
+                    <td>10 Million</td>
+                    <td>15</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>9 Million</td>
+                    <td>14</td>
+                    <td>17</td>
+                </tr>
+                <tr>
+                    <td>8 Million</td>
+                    <td>12</td>
+                    <td>15</td>
+                </tr>
+                <tr>
+                    <td>7 Million</td>
+                    <td>13</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>6 Million</td>
+                    <td>10</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>5 Million</td>
+                    <td>8</td>
+                    <td>11</td>
+                </tr>
+                <tr>
+                    <td>4 Million</td>
+                    <td>6</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td>3 Million</td>
+                    <td>5</td>
+                    <td>8</td>
+                </tr>
+            </table>
+
+
+
+            <footer>
+                <h5>For further inquiry, Contact us:</h5>
+                <section>
+                <div><a href="https://www.facebook.com/messages/t/938691359617435" target="_blank"><i class="fab fa-facebook"></i></a>Facebook</div>
+                <div><i class="fas fa-phone-square-alt"></i>010-5738-7073</div>
+                </section>
+            </footer>
+
+        </div>
+
+
+    </div>
+
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        div.loanWrap {
+            background-color: #68756b;
+            height: 100vh;
+
+        }
+
+        div.loanWrap>.loan {
+            width: 1080px;
+            margin: 0 auto;
+        }
+
+        div.loanWrap>.loan>h4 {
+            padding-top: 5px;
+            font-size: 30px;
+            font-weight: 700;
+            letter-spacing: 8px;
+            color: #000;
+            text-align: center;
+        }
+
+        hr {
+            text-align: center;
+            width: 50%;
+            border: 1px solid #30c92a;
+            margin: 0 auto;
+        }
+
+        div.loanWrap>.loan>p {
+            text-align: center;
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 2%;
+            color: #e2d6d6;
+            letter-spacing: 1.5px;
+        }
+
+        div.loanWrap>.loan>.list {
+            border: 1px solid #30c92a;
+            height: 24vh;
+            width: 48%;
+            margin: 8px auto;
+            border-left: 25px solid grey;
+        }
+
+        div.loanWrap>.loan>.list>ul {}
+
+        div.loanWrap>.loan>.list>ul>li {
+
+            font-size: 12px;
+            font-weight: bold;
+            margin-top: 1%;
+
+        }
+
+        #tbl {
+            border-collapse: collapse;
+            margin: 8px auto;
+            width: 43%;
+            font-size: 14px;
+            }
+
+        td,
+        th {
+            border: 1px solid #ddd;
+            padding: 1px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        th {
+            padding-top: 3px;
+            padding-bottom: 3px;
+            text-align: left;
+            background-color: #30c92a;
+            color: white;
+        }
+
+
+        div.loanWrap>.loan>footer > section {
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            width: 40%;
+            text-align: center;
+            
+        }
+
+        div.loanWrap>.loan>footer>h5 {
+            font-size: 14px;
+            line-height: 20px;
+            color: #e2d6d6;
+            text-align: center;
+        }
+
+        div.loanWrap>.loan>footer>div {
+            font-size: 15px;
+            letter-spacing: 1px;
+            width: 40%;
+            
+        }
+
+        i {
+            color: #30c92a;
+            font-size: 20px;
+        }
+             
+        
+        </style>
+
+
+</body>
+
+</html>

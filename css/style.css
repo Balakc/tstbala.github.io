@@ -1,0 +1,1240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+span {
+    color: black;
+}
+
+
+
+
+/*Nav- Start*/
+
+div.hdrWrap {
+    position: sticky;
+    top: 0;
+}
+
+
+div.hdrWrap > header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background: #17331e;
+    border-bottom: 1px solid #30c92a;
+    width: 100%;
+
+}
+
+div.hdrWrap > header > a {
+    float: left;
+    width: 20%;
+    padding-left: 5%;
+   
+}
+
+div.hdrWrap > header > a > h1 {
+    color: #30c92a;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 0px;
+    text-shadow: 1px 1px grey;
+}
+
+div.hdrWrap > header > a > h1:hover {
+    color: #fff;
+    transition-duration: .9s;
+    font-weight: 700;
+}
+
+i {
+    color: #fff;
+}
+
+div.hdrWrap > header > nav {
+   overflow: hidden;
+    width: 80%;
+    
+    
+}
+
+div.hdrWrap > header > nav > ul {
+   float: right;
+   overflow: hidden; 
+  
+    
+    
+    
+}
+div.hdrWrap > header > nav > ul > li {
+    float: left;
+    
+    
+}
+
+
+div.hdrWrap > header > nav > ul > li > a {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-right: 30px;
+    color: #c6cfc8;
+    letter-spacing: 1.2px;
+    padding: 7px 5px;
+    
+}
+
+div.hdrWrap > header > nav > ul > li > a:hover {
+    background-color: white;
+    color: #17331e;
+    transition-duration: 1s;
+    transition-delay: .3s;
+    border-radius: 5px;
+}
+/*Nav- End*/
+
+
+
+
+
+
+
+
+/*Landing*/
+section {
+    background-image: url('../img/pic01.jpg');
+    height: 130vh;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    border-bottom: .1px solid #30c92a;
+
+}
+
+section > .container {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    text-align: center;
+    color: #fff;
+    width: 60%;
+
+}
+
+section > .container > h2 {
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    text-shadow: .5px 2px black;
+}
+
+section > .container > p {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 90%;
+}
+
+section > .container > a > button {
+    padding: 9px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+    border-radius: 3px;
+    border: 1px solid #30c92a;
+}
+
+section > .container > a > button:hover {
+    background-color: #30c92a;
+    font-weight: bold;
+    color: #fff;
+    transition-duration: 1s;
+    border: 1px solid white;
+}
+
+/*About me*/
+div.about {}
+
+div.about > .container {
+    background-color: #68756b;
+    width: 100%;
+    height: 105vh;
+    color: #fff;
+    padding-top: 10%;
+}
+
+div.about > .container > h2 {
+    padding: 10px;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    color: #000;
+    text-align: center;
+}
+
+hr {
+    text-align: center;
+    width: 50%;
+    border: 1px solid #30c92a;
+    margin: 0 auto;
+}
+
+div.about > .container > .section {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+div.about > .container > .section > .img {
+    background-image: url('../img/pic02.jpg');
+    height: 240px;
+    width: 180px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 1px solid #30c92a;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+div.about > .container > .section > .aside {
+    background-color: #68756b;
+    width: 30%;
+
+    -webkit-box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0.75);
+}
+
+
+div.about > .container > .section > .aside > h3 {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #30c92a;
+    letter-spacing: 2px;
+}
+
+div.about > .container > .section > .aside > p {
+    padding-left: 20px;
+    border-bottom: 1px solid grey;
+}
+
+div.about > .container > .section > .aside > p > a {
+    color: #30c92a;
+}
+
+
+/*skills*/
+div.skills {}
+
+div.skills > .container {
+    background-color: #68756b;
+    width: 100%;
+    height: 105vh;
+    color: #fff;
+    padding-top: 10%;
+}
+
+div.skills > .container > h2 {
+    padding: 10px;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    color: #000;
+    text-align: center;
+}
+
+
+div.skills > .container > .sec {
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 60px;
+}
+
+div.skills > .container > .sec > .academic {
+    -webkit-box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0.75);
+    height: 300px;
+    width: 47%;
+}
+
+div.skills > .container > .sec > .technical {
+    -webkit-box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0.75);
+    width: 45%;
+    height: 300px;
+}
+
+
+
+div.skills > .container > .sec > .academic > h3 {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #30c92a;
+    letter-spacing: 2px;
+}
+
+
+div.skills > .container > .sec > .academic > p {
+    padding-left: 20px;
+    border-bottom: 1px solid grey;
+    
+}
+
+div.skills > .container > .sec > .academic > p > a {                      /*CHeck it*/
+    color: #30c92a;
+    
+}
+
+div.skills > .container > .sec > .technical > h3 {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #30c92a;
+    letter-spacing: 2px;
+}
+
+
+div.skills > .container > .sec > .technical > p {
+    padding-left: 20px;
+    border-bottom: 1px solid grey;
+}
+
+div.skills > .container > .sec > .technical > p > a {
+    color: #30c92a;
+}
+
+
+/*services*/
+div.services {}
+
+div.services > .containerS {
+    background-color: #68756b;
+    width: 100%;
+    height: 105vh;
+    color: #fff;
+    padding-top: 10%;
+}
+
+div.services > .containerS > h2 {
+    padding: 10px;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    color: #000;
+    text-align: center;
+}
+
+div.services > .containerS > .serviceWrap {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    height: 180px;
+}
+
+div.services > .containerS > .serviceWrap > .service {
+    text-align: center;
+    border-bottom: 1px solid #30c92a;
+}
+
+div.services > .containerS > .serviceWrap > .service:hover {
+    border-bottom: .01px solid #30c92a;
+    transition-delay: .5s;
+    cursor: pointer;
+    transition-duration: .2s;
+}
+
+
+
+div.services > .containerS > .serviceWrap > .service > i {
+    font-size: 36px;
+    color: #30c92a;
+}
+
+div.services > .containerS > .serviceWrap > .service > h4 , div.services > .containerS > .serviceWrap > .service > a > h4 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin: 12px;
+}
+
+div.services > .containerS > .serviceWrap > .service > h4:hover , div.services > .containerS > .serviceWrap > .service > a > h4:hover {
+    color: #a6f7a6;
+}
+
+/*check from here for the link___________________________________________________________________________*/
+
+
+div.services > .containerS > .serviceWrap > .service > p {
+    color: #000;
+    height: 20%;
+}
+
+
+/*Hobbies*/
+div.hobbiesWrap {}
+
+div.hobbiesWrap > .hobbies {
+    background-color: #68756b;
+    width: 100%;
+    height: 105vh;
+    color: #fff;
+    padding-top: 10%;
+}
+
+div.hobbiesWrap > .hobbies > h2 {
+    padding: 10px;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    color: #000;
+    text-align: center;
+}
+
+div.hobbiesWrap > .hobbies > .articleWrap {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    height: 180px;
+
+}
+
+div.hobbiesWrap > .hobbies > .articleWrap > .article {
+    text-align: center;
+    width: 31%;
+    position: relative;
+
+
+
+}
+
+div.hobbiesWrap > .hobbies > .articleWrap > .article > .img {
+    height: 180px;
+    width: 300px;
+    margin: 8px auto;
+    background-size: cover;
+    border: 5px solid #546257;
+}
+
+/*Images*/
+
+div.hobbiesWrap > .hobbies > .articleWrap > .article > .img1 {
+    background-image: url('../img/pic04.jpg');
+}
+
+div.hobbiesWrap > .hobbies > .articleWrap > .article > .img2 {
+    background-image: url('../img/pic05.jpg');
+}
+
+div.hobbiesWrap > .hobbies > .articleWrap > .article > .img3 {
+    background-image: url('../img/pic06.jpg');
+}
+
+
+div.hobbiesWrap > .hobbies > .articleWrap > .article > .segment {
+    height: 180px;
+    width: 300px;
+    margin: 8px auto;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+
+}
+
+div.hobbiesWrap > .hobbies > .articleWrap > .article:hover {
+    transition-delay: 1s;
+}
+
+div.hobbiesWrap > .hobbies > .articleWrap > .article:hover > .segment {
+    right: 0px;
+    top: 30px;
+    display: block;
+    transition-property: top;
+    transition-delay: 2s;
+}
+
+div.hobbiesWrap > .hobbies > .articleWrap > .article > h3 > a {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    margin: 14px;
+    letter-spacing: 3px;
+}
+
+
+div.hobbiesWrap > .hobbies > .articleWrap > .article > h3 > a:hover {
+    color: #c6cfc8;
+    transition-duration: .5s;
+}
+
+
+div.hobbiesWrap > .hobbies > .articleWrap > .article > .segment > p {
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    font-size: 14px;
+    padding: 20px;
+    letter-spacing: 2px;
+
+}
+
+
+
+
+div.hobbiesWrap > .hobbies > .articleWrap > .article > .img:hover,
+div.hobbiesWrap > .hobbies > .articleWrap > .article > .segment > p {
+    display: block;
+}
+
+
+
+
+
+/*Contact Me*/
+div.contactWrap {}
+
+div.contactWrap > .contact {
+    background-color: #68756b;
+    width: 100%;
+    height: 90vh;
+    color: #fff;
+    padding-top: 6%;
+}
+
+div.contactWrap > .contact > h2 {
+    padding: 10px;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    color: #000;
+    text-align: center;
+}
+
+div.contactWrap > .contact > .article {
+    margin-top: 5%;
+}
+
+div.contactWrap > .contact > .article > h3 {
+    padding: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #e2dede;
+    text-align: center;
+}
+
+div.contactWrap > .contact > .article > .secWrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+div.contactWrap > .contact > .article > .secWrap > .sec {
+    height: 80px;
+    width: 3%;
+    margin: 25px;
+}
+
+div.contactWrap > .contact > .article > .secWrap > .sec > a > i {
+    font-size: 36px;
+    font-weight: bold;
+    color: #30c92a
+}
+
+div.contactWrap > .contact > .article > .secWrap > .sec > a > i:hover {
+    font-size: 41px;
+    transition-delay: .4s;
+    color: #3eaa39
+}
+
+
+
+/*footer*/
+div.ftrWrap {}
+
+div.ftrWrap > footer {
+    position: sticky;
+}
+
+div.ftrWrap > footer > h3 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    background: #17331e;
+    color: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+/*______________________________________________________________Media query______________________________________________*/
+/*______________________________________________________________Media query______________________________________________*/
+
+
+/*Nav- MQ- Start*/
+@media only screen and (max-width: 900px){
+div.hdrWrap > header > a > h1 {
+    font-weight: 300;
+    font-size: 14px;
+    letter-spacing: 1px;
+    
+}
+
+div.hdrWrap > header > nav > ul > li > a {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-right: 20px;
+    letter-spacing: 1px;
+    padding: 5px 3px;
+}
+
+div.hdrWrap > header > a {
+    float: left;
+    width: 15%;
+    padding-left: 2%;
+}
+    
+    }
+
+
+@media only screen and (max-width: 629px){
+div.hdrWrap > header > a > h1 {
+    font-weight: 300;
+    font-size: 10px;
+    letter-spacing: 0px;
+    
+}
+
+div.hdrWrap > header > nav > ul > li > a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    padding: 3px 1px;
+}
+
+div.hdrWrap > header > a {
+    float: left;
+    width: 5%;
+    padding-left: 1%;
+}
+    
+i {
+    font-size: 0;
+}
+    
+      
+    }
+
+div.hdrWrap > header > nav {
+    width: 90%;
+   
+    
+}
+
+@media only screen and (max-width: 464px){
+div.hdrWrap > header > a > h1 {
+    font-weight: 200;
+    font-size: 10px;   
+    
+}
+
+div.hdrWrap > header > nav > ul > li > a {
+    font-size: 11px;
+    font-weight: 200;
+    line-height: 10px;
+    margin-right: 6px;
+    color: #fff;
+    letter-spacing: 0px;
+    padding: 2px 2px;
+    border-bottom: .5px solid green;
+}
+
+div.hdrWrap > header > a {
+    width: 5%;
+    padding-left: 2%;
+}
+    
+i {
+        
+    font-size: 0;
+} 
+        
+
+div.hdrWrap > header > nav {
+    width: 95%;   
+    }
+    
+    }
+
+/*Nav- MQ- END*/
+
+
+
+
+
+
+/*MQ- Distributed*/
+@media only screen and (max-width: 600px) {
+    
+
+    /* 2. landing*/
+
+
+    section {
+        background-image: url('../img/pic01.jpg') no-repeat fixed center;
+        height: 55vh;
+        width: 100%;
+        position: relative;
+
+
+    }
+
+    section > .container {
+        position: absolute;
+        top: 7%;
+        left: 7%;
+        text-align: center;
+        color: #fff;
+        width: 50%;
+        height: 5%;
+
+    }
+
+    section > .container > h2 {
+        padding: 10px;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+
+    section > .container > p {
+        padding: 15px;
+        font-size: 10px;
+        font-weight: 400;
+        width: 90%;
+    }
+
+    section > .container > a > button {
+        padding: 4px;
+        font-size: 10px;
+        font-weight: 700;
+        margin-top: 5px;
+        border-radius: 1px;
+        border: 1px solid #30c92a;
+    }
+
+
+
+    /* 3 About*/
+
+       div.about > .container {
+        background-color: #68756b;
+        width: 100%;
+        height: 105vh;
+        color: #fff;
+        padding-top: 20%;
+    }
+
+    div.about > .container > h2 {
+        padding: 10px;
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        color: #000;
+        text-align: center;
+    }
+
+   
+    div.about > .container > .section {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    div.about > .container > .section > .img {
+
+        background-image: url('../img/pic02.jpg') no-repeat cover;
+        height: 100px;
+        width: 75px;
+        margin-top: 20px;
+        margin-right: 10px;
+
+
+    }
+
+    div.about > .container > .section > .aside {
+        background-color: #68756b;
+        width: 70%;
+
+        -webkit-box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0.75);
+        box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0.75);
+    }
+
+
+   
+
+
+    /* MQ Services*/
+
+    div.services {}
+
+    div.services > .containerS {
+        background-color: #68756b;
+        width: 100%;
+        height: 105vh;
+        color: #fff;
+        padding-top: 50%;
+    }
+
+    div.services > .containerS > h2 {
+        padding: 10px;
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        color: #000;
+        text-align: center;
+    }
+
+    div.services > .containerS > .serviceWrap {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        height: 180px;
+    }
+
+    div.services > .containerS > .serviceWrap > .service {
+        text-align: center;
+        border-bottom: 1px solid #30c92a;
+    }
+
+    div.services > .containerS > .serviceWrap > .service:hover {
+        border-bottom: .01px solid #30c92a;
+        transition-delay: .5s;
+        cursor: pointer;
+        transition-duration: .2s;
+    }
+
+    div.services > .containerS > .serviceWrap > .service > i {
+        font-size: 26px;
+        color: #30c92a;
+    }
+
+    div.services > .containerS > .serviceWrap > .service > h4,div.services > .containerS > .serviceWrap > .service > a > h4  {
+        font-size: 12px;
+        font-weight: bold;
+        color: #fff;
+        margin: 12px;
+
+    }
+    
+   
+    div.services > .containerS > .serviceWrap > .service > p {
+        color: #000;
+        height: 20%;
+        font-size: 8px;                        
+    }
+
+
+    /*HObbies*/
+    div.hobbiesWrap > .hobbies > h2 {
+        padding: 10px;
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        color: #000;
+        text-align: center;
+
+    }
+
+
+
+
+    /*Contact Me*/
+
+    div.contactWrap > .contact {
+        background-color: #68756b;
+        width: 100%;
+        height: 90vh;
+        color: #fff;
+        padding-top: 10%;
+    }
+
+    div.contactWrap > .contact > h2 {
+        padding: 2%;
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        color: #000;
+        text-align: center;
+    }
+
+    div.contactWrap > .contact > .article {
+        margin-top: 15%;
+    }
+
+    div.contactWrap > .contact > .article > h3 {
+        padding: 1px;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 1px;
+        color: #e2dede;
+        text-align: center;
+
+    }
+
+    div.contactWrap > .contact > .article > .secWrap {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    div.contactWrap > .contact > .article > .secWrap > .sec {
+        height: 80px;
+        width: 3%;
+        margin: 25px;
+    }
+
+    div.contactWrap > .contact > .article > .secWrap > .sec > a > i {
+        font-size: 30px;
+        font-weight: bold;
+        color: #30c92a
+    }
+
+    div.contactWrap > .contact > .article > .secWrap > .sec > a > i:hover {
+        font-size: 36px;
+        transition-delay: .4s;
+        color: #3eaa39
+    }
+
+
+
+    /*footer*/
+
+
+    div.ftrWrap > footer > h3 {
+        font-size: 9px;
+        font-weight: 100;
+        letter-spacing: 2px;
+     }
+
+    /*skills*/
+    div.skills > .container > h2 {
+        padding: 10px;
+        font-size: 26px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        color: #000;
+        text-align: center;
+    }
+
+}
+
+
+/*MQ  HObbies-*/
+
+@media screen and (min-width:701px) and (max-width:1200px) {
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > .img {
+        height: 160px;
+        width: 230px;
+        margin: 8px auto;
+        background-size: cover;
+        border: 5px solid #546257;
+    }
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > .segment {
+        height: 160px;
+        width: 230px;
+        margin: 8px auto;
+        position: absolute;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+
+    }
+
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > h3 > a {
+        font-size: 20px;
+        font-weight: bold;
+        color: #fff;
+        margin: 12px;
+        letter-spacing: 3px;
+    }
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > .segment > p {
+        color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        font-size: 12px;
+        padding: 20px;
+
+
+    }
+
+}
+
+
+@media screen and (max-width:700px) {
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > .img {
+        height: 100px;
+        width: 160px;
+        margin: 8px auto;
+        background-size: cover;
+        border: 4px solid #546257;
+    }
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > .segment {
+        height: 100px;
+        width: 160px;
+        margin: 4px auto;
+        position: absolute;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+
+    }
+
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > h3 > a {
+        font-size: 14px;
+        font-weight: bold;
+        color: #fff;
+        margin: 12px;
+        letter-spacing: 2px;
+    }
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > .segment > p {
+        font-size: 9px;
+        padding: 7px;
+        letter-spacing: 1px;
+
+    }
+
+}
+
+
+@media screen and (max-width:520px) {
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > .img {
+        height: 100px;
+        width: 130px;
+        margin: 8px auto;
+        background-size: cover;
+        border: 3px solid #546257;
+
+    }
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > .segment {
+        height: 100px;
+        width: 130px;
+        margin: 1px auto;
+        position: absolute;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+
+    }
+
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > h3 > a {
+        font-size: 9px;
+        font-weight: bold;
+        color: #fff;
+        margin: 1px;
+        letter-spacing: 0px;
+    }
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > .segment > p {
+        font-size: 8px;
+        padding: 8px;
+        letter-spacing: 1px;
+
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > .img {
+        height: 90px;
+        width: 80px;
+        margin: 8px auto;
+        background-size: cover;
+        border: 2px solid #546257;
+    }
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > .segment {
+        height: 90px;
+        width: 80px;
+        margin: 1px auto;
+        position: absolute;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        display: none;
+        top: 0;
+        left: 0;
+
+    }
+
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > h3 > a {
+        font-size: 7.5px;
+        font-weight: bold;
+        color: #fff;
+        margin: 1px;
+        letter-spacing: 0px;
+    }
+
+
+    div.hobbiesWrap > .hobbies > .articleWrap > .article > .segment > p {
+        font-size: 7px;
+        padding: 2px;
+        letter-spacing: 0px;
+
+
+    }
+
+}
+
+
+/*MQ  HOBBIES END*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query 
+4. Skills*/
+@media only screen and (max-width: 700px) {
+
+
+    div.skills > .container > .sec > .academic {
+        -webkit-box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0);
+        -moz-box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0);
+        box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0);
+        height: 300px;
+        width: 47%;
+    }
+
+    div.skills > .container > .sec > .technical {
+        -webkit-box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0);
+        -moz-box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0;
+                box-shadow: -18px 18px 16px -7px rgba(0, 0, 0, 0);
+                width: 45%;
+                height: 300px;
+        }
+
+        div.hobbiesWrap > .hobbies > .articleWrap > .article > .img {
+            display: none;
+
+
+        }
+    
+    div.skills > .container > .sec > .academic > p {         /*CHec----------------------------------k it*/
+    font-size: 0px;
+    
+}
+
+div.skills > .container > .sec > .academic > p > a {                      /*CHec----------------------------------k it*/
+    font-size: 10px;
+    
+}
+
+
+
+
+div.skills > .container > .sec > .technical > p {
+    font-size: 10px;
+}
+
+div.skills > .container > .sec > .technical > p > a {
+    font-size: 10px;                                              /*CHec----------------------------------k it*/
+}
+
+    }
+
+
+
+
+
+
+
+
+
+
+
